@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsw-cse-comp3900-9900-21T3/capstone-project-3900-w14a-athlx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsw-cse-comp3900-9900-21T3/capstone-project-3900-w14a-athlx/issues"
+  },
+  "homepage": "https://github.com/unsw-cse-comp3900-9900-21T3/capstone-project-3900-w14a-athlx#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.11",
+    "md5": "^2.3.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "uuidv1": "^1.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

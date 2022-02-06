@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* gotta add another div within the page header containing a flexbox so that the header itself is a set size*/
+.page-header {
+  min-width: 100%;
+  background-color: #f2f0f0;
+  height: 4vh;
+}
+
+.page-header-div {
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 95vh
+}
+
+.drawerfooter {
+  position: "absolute";
+  bottom: 0;
+}
+
+.sidebarcontent {
+  width: 100%;
+  border: 1px;
+}
+
+.sideButtonsDiv {
+  height: 3vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+
+.pagediv {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.pageflex {
+  display: flex;
+  justify-content: flex-start;
+  /* height: 250px; */
+}
+
+.mainFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-div {
+  /* height: 200px; */
+  width: 204px;
+  height: max-content;
+  background-color: rgb(218, 234, 255);
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  border-radius: 0.5px;
+  margin-right: 30px;
+}
+.product-div img {
+  height: 200px;
+  width: 200px;
+  background-color: khaki;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5px;
+  /* margin: 0; */
+}
+.product-div h1, h2, h3, h4, h5, h6 {
+  margin: 5px 0px;
+}
+
+.page-footer {
+  background-color: #f2f0f0;
+  height: 10vh;
+  /* position:fixed; */
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line-style {
+  height: 1px;
+  color:rgb(134, 127, 127);
+  background-color: black;
+  margin-top: 26px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.datagrid {
+  height: 80vh
+}
+
+.componentmargin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-middle-div {
+  display: flex;
+  background-color: antiquewhite;
+  height: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.App-link {
+  color: #61dafb;
+}

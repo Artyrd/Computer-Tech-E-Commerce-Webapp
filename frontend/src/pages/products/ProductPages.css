@@ -1,0 +1,66 @@
+
+.productflex {
+  display:flex;
+  min-height: 350px;
+}
+
+.productimage {
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+}
+
+.descriptionbox {
+  width: 1000px;
+  margin-left: 50px;
+  overflow-wrap: break-word;
+}
+
+.tagsbox {
+  width: 300px;
+  background-color: blue;
+  overflow-wrap: break-word;
+}
+
+.reviewdiv {
+  border-style: solid;
+  border-width: 0.5px;
+  width: 70%;
+  height: 40%;
+  margin-top: 50px;
+}
+
+.productreviewdiv {
+  width: 100%;
+  overflow-y: scroll;
+  height:84.5%
+}
+
+.sidebarcartdivs {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.productstitlediv {
+  display:flex;
+  justify-content: flex-start;
+  overflow: visible;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+
+.formbox {
+  height: 2.5vh;
+  /* margin-top: 25px; */
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.gridboxproducts {
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 80vh; 
+  overflow: auto;
+}

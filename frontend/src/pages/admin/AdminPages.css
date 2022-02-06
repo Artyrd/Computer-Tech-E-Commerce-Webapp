@@ -1,0 +1,52 @@
+#table {
+    text-align: center;
+    border: 3px solid #ddd;
+    width: 100%
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding:8px;
+}
+
+#header2 {
+    color: #173C5E;
+}
+
+#card {
+    background-color: #F2F5F8;
+}
+
+.ReactTags__tagInput {
+    width: 490px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.ReactTags__tagInput input.ReactTags__tagInputField,
+.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 40px;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.ReactTags__selected span.ReactTags__tag {
+    border: 1px solid #ddd;
+    background: #ddd;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 2px;
+  }
+  
+.ReactTags__remove {
+border: none;
+cursor: pointer;
+background: lightcoral;
+color: black;
+margin: 5px;
+}

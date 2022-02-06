@@ -1,0 +1,25 @@
+#table {
+    text-align: center;
+    border: 3px solid #ddd;
+    width: 100%
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding:8px;
+}
+
+#cheader3 {
+    color: #173C5E;
+}
+
+#cheader2 {
+    color: #062241;
+}
+
+.textstyle {
+  width:'400px';
+  height: '250px';
+  margin-top: '20px';
+  overflow:auto;
+}

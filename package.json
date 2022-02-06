@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@date-io/date-fns": "^2.11.0",
+    "@date-io/dayjs": "^2.11.0",
+    "@date-io/luxon": "^2.11.1",
+    "@date-io/moment": "^2.11.0",
+    "chart.js": "^3.6.0",
+    "react-chartjs-2": "^3.3.0"
+  }
+}
