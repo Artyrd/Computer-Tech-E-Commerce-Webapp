@@ -2,7 +2,7 @@
 
 UNSW COMP3900/9900 Capstone Project: Stargate
 
-## Developed with React/ NodeJS/ SQLite3
+## Tech Stack: Developed with React/ NodeJS/ SQLite3
 
 ## Team Members:
 - Yida Chen
